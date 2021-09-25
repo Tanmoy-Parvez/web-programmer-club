@@ -1,4 +1,5 @@
 import React from 'react';
+import "./Programmer.css"
 
 const Programmer = (props) => {
     const { name, age, birthDate, img, salary } = props.programmer;
