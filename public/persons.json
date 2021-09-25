@@ -1,0 +1,110 @@
+[
+    {
+        "id": 101,
+        "name": "Jhankar Mahbub",
+        "birthDate": "Feb 28, 1995",
+        "age": 26,
+        "expert": "Python Programming",
+        "salary": 2000,
+        "img": "https://tonmoyac.github.io/e-school/images/Photos/teacher.png"
+    },
+    {
+        "id": 102,
+        "name": "Sumit Saha",
+        "birthDate": "April 9, 1997",
+        "age": 24,
+        "expert": "JavaSript Programming",
+        "salary": 1900,
+        "img": "https://pbs.twimg.com/profile_images/874172653405327360/QyysiBs5_400x400.jpg"
+    },
+    {
+        "id": 103,
+        "name": "James Gosling",
+        "birthDate": "Feb 19, 1971",
+        "age": 49,
+        "expert": "Java Programming",
+        "salary": 2100,
+        "img": "https://pbs.twimg.com/profile_images/1060661254853865472/Oj2V9k6Y.jpg"
+    },
+    {
+        "id": 104,
+        "name": "Linus Torvalds",
+        "birthDate": "Sep 29, 1981",
+        "age": 40,
+        "expert": "C# Programming",
+        "salary": 1000,
+        "img": "https://marriedbiography.com/wp-content/uploads/2021/01/Linus-Torvalds.jpg"
+    },
+    {
+        "id": 105,
+        "name": "Anders Hejlsberg",
+        "birthDate": "Jan 1, 1955",
+        "age": 65,
+        "expert": "C++ Programming",
+        "salary": 1800,
+        "img": "http://community.fansshare.com/pic137/w/anders-hejlsberg/369/26824_anders_hejlsberg.jpg"
+    },
+    {
+        "id": 106,
+        "name": "Tim Berners-Lee",
+        "birthDate": "Mar 9, 1989",
+        "age": 60,
+        "expert": "Python Programming",
+        "salary": 2100,
+        "img": "https://i.guim.co.uk/img/media/529ee9c8743ef643cba788929a547c8388d513dd/0_0_3008_1805/master/3008.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ff4f238a190cbb2d33b68a9751b54fcd"
+    },
+    {
+        "id": 107,
+        "name": "Brian Kernighan",
+        "birthDate": "May 15, 1969",
+        "age": 59,
+        "expert": "C# Programming",
+        "salary": 1100,
+        "img": "https://www.cs.princeton.edu/sites/all/modules/custom/cs_people/generate_thumbnail.php?id=19&thumb="
+    },
+    {
+        "id": 108,
+        "name": "Ken Thompson",
+        "birthDate": "Jun 21, 1975",
+        "age": 49,
+        "expert": "C Programming",
+        "salary": 2100,
+        "img": "http://twimgs.com/informationweek/1304/304Dobbs_Thompson.jpg"
+    },
+    {
+        "id": 109,
+        "name": "Guido van Rossum",
+        "birthDate": "Sep 25, 1981",
+        "age": 65,
+        "expert": "Java Programming",
+        "salary": 2100,
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyDvANnnYc2YpG9Ok3uMJxAc9IOAqQ-2udVA&usqp=CAU"
+    },
+    {
+        "id": 110,
+        "name": "Donald Knuth",
+        "birthDate": "Jul 12, 1958",
+        "age": 65,
+        "expert": "C++ Programming",
+        "salary": 2500,
+        "img": "https://i.guim.co.uk/img/media/a963fde3d11ae01cb8eaf84b516ee53446406397/809_402_5801_3481/master/5801.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=dd509faba72cecc543e239fc6bcbd438"
+    },
+    {
+        "id": 111,
+        "name": "Dennis Ritchie",
+        "birthDate": "Sep 9, 1941",
+        "age": 60,
+        "expert": "C Programming",
+        "salary": 2000,
+        "img": "https://s.yimg.com/uu/api/res/1.2/vhlWyAqI9PmWbUBNNrywzg--~B/aD0yNTA7dz0xOTM7YXBwaWQ9eXRhY2h5b24-/https://www.blogcdn.com/www.engadget.com/media/2011/10/dennis-ritchie.jpg"
+    },
+    {
+        "id": 112,
+        "name": "Bjarne Stroustrup",
+        "birthDate": "Dec 9, 1961",
+        "age": 50,
+        "expert": "C++ Programming",
+        "salary": 1500,
+        "img": "https://ieeecs-media.computer.org/wp-media/2018/08/28174850/Bjarne-Stroustrup-250x300.jpg"
+    }
+]
