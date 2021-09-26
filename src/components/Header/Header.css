@@ -1,5 +1,8 @@
 .header{
-    background-color: purple;
+    background-color: orange;
     padding: 10px;
     color: #fff;
+    width: 90%;
+    margin: 20px auto ;
+    border-radius: 0px 50px ;
 }

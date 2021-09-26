@@ -5,14 +5,14 @@ const Cart = (props) => {
     const { cart } = props;
     const total = cart.reduce((prevValue, currValue) => prevValue + currValue.salary, 0)
     return (
-        <div>
-            <h4>Selected Programmers: {cart.length}</h4>
-            <p>Total: {total}</p>
-            <ul>
+        <div className=" cart">
+            <h5><i class="fas fa-users"></i> Selected Programmers: {cart.length}</h5>
+            <p><i class="fas fa-coins"></i> Total Amount: {total}</p>
+            <div>
                 {
-                    cart.map(person => <li>{person.name}</li>)
+                    cart.map(person => <p> <i class="fas fa-user"></i> {person.name}</p>)
                 }
-            </ul>
+            </div>
         </div>
     );
 };

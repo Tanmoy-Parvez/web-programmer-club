@@ -21,14 +21,16 @@ const Programmers = () => {
     return (
         <div className="row">
             <div className="col-md-9">
-                {
-                    programmers.map(programmer => <Programmer
-                        programmer={programmer}
-                        key={programmer.id}
-                        handleAddToCart={handleAddToCart}>
+                <div className="row gy-5">
+                    {
+                        programmers.map(programmer => <Programmer
+                            programmer={programmer}
+                            key={programmer.id}
+                            handleAddToCart={handleAddToCart}>
 
-                    </Programmer>)
-                }
+                        </Programmer>)
+                    }
+                </div>
             </div>
             <div className="col-md-3">
                 <Cart cart={cart}></Cart>
