@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Programmers from './components/Programmers/Programmers';
 
 function App() {
+  // main body part
   return (
     <div className="App bg-dark">
       <Header />

@@ -2,6 +2,7 @@ import React from 'react';
 import "./Programmer.css"
 
 const Programmer = (props) => {
+    // destructuring property from props
     const { name, age, birthDate, img, salary, expert } = props.programmer;
     return (
         <div className="col-md-4">
@@ -9,6 +10,7 @@ const Programmer = (props) => {
                 <div className="card-image">
                     <img src={img} alt="" />
                 </div>
+                {/* card body section */}
                 <div className="card-body">
                     <h4>{name}</h4>
                     <h6 className="fw-normal">Age: {age} years</h6>

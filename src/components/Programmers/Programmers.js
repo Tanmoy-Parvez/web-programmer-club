@@ -4,15 +4,18 @@ import Programmer from '../Programmer/Programmer';
 import './Programmers.css'
 
 const Programmers = () => {
+    // declare sates 
     const [programmers, setProgrammers] = useState([]);
     const [cart, setCart] = useState([]);
 
+    // load fake data 
     useEffect(() => {
         fetch("/persons.json")
             .then(res => res.json())
             .then(data => setProgrammers(data))
     }, [])
 
+    // handle add to cart button 
     const handleAddToCart = (programmer) => {
         const newCart = [...cart, programmer];
         setCart(newCart);
@@ -27,7 +30,6 @@ const Programmers = () => {
                             programmer={programmer}
                             key={programmer.id}
                             handleAddToCart={handleAddToCart}>
-
                         </Programmer>)
                     }
                 </div>
